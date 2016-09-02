@@ -60,3 +60,15 @@
 [Fri Sep 02 06:37:32.690394 2016] [mpm_winnt:notice] [pid 6612:tid 508] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Fri Sep 02 06:37:34.690907 2016] [mpm_winnt:notice] [pid 9652:tid 476] AH00364: Child: All worker threads have exited.
 [Fri Sep 02 06:37:34.739004 2016] [mpm_winnt:notice] [pid 6612:tid 508] AH00430: Parent: Child process 9652 exited successfully.
+[Fri Sep 02 07:11:29.979500 2016] [ssl:warn] [pid 4176:tid 564] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 02 07:11:30.176054 2016] [ssl:warn] [pid 4176:tid 564] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 02 07:11:30.193753 2016] [mpm_winnt:notice] [pid 4176:tid 564] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.10 configured -- resuming normal operations
+[Fri Sep 02 07:11:30.193753 2016] [mpm_winnt:notice] [pid 4176:tid 564] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Fri Sep 02 07:11:30.193753 2016] [core:notice] [pid 4176:tid 564] AH00094: Command line: 'C:\\WORDPR~1.6-1\\apache2\\bin\\httpd.exe -d C:/wordpress-4.6-1/apache2 -f C:\\WORDPR~1.6-1\\apache2\\conf\\httpd.conf'
+[Fri Sep 02 07:11:30.199756 2016] [mpm_winnt:notice] [pid 4176:tid 564] AH00418: Parent: Created child process 11984
+[Fri Sep 02 07:11:30.746469 2016] [ssl:warn] [pid 11984:tid 476] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 02 07:11:30.902013 2016] [ssl:warn] [pid 11984:tid 476] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 02 07:11:30.916022 2016] [mpm_winnt:notice] [pid 11984:tid 476] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 02 08:52:53.149382 2016] [mpm_winnt:notice] [pid 4176:tid 564] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 02 08:52:57.659020 2016] [mpm_winnt:notice] [pid 11984:tid 476] AH00364: Child: All worker threads have exited.
+[Fri Sep 02 08:52:57.844237 2016] [mpm_winnt:notice] [pid 4176:tid 564] AH00430: Parent: Child process 11984 exited successfully.
