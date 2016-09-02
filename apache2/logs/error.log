@@ -39,3 +39,24 @@
 [Thu Sep 01 21:25:06.483756 2016] [mpm_winnt:notice] [pid 11200:tid 520] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Thu Sep 01 21:25:13.002465 2016] [mpm_winnt:notice] [pid 10900:tid 532] AH00364: Child: All worker threads have exited.
 [Thu Sep 01 21:25:13.123350 2016] [mpm_winnt:notice] [pid 11200:tid 520] AH00430: Parent: Child process 10900 exited successfully.
+[Fri Sep 02 06:24:12.583786 2016] [ssl:warn] [pid 6612:tid 508] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 02 06:24:12.759662 2016] [ssl:warn] [pid 6612:tid 508] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 02 06:24:12.781677 2016] [mpm_winnt:notice] [pid 6612:tid 508] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.10 configured -- resuming normal operations
+[Fri Sep 02 06:24:12.782678 2016] [mpm_winnt:notice] [pid 6612:tid 508] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Fri Sep 02 06:24:12.782678 2016] [core:notice] [pid 6612:tid 508] AH00094: Command line: 'C:\\WORDPR~1.6-1\\apache2\\bin\\httpd.exe -d C:/wordpress-4.6-1/apache2 -f C:\\WORDPR~1.6-1\\apache2\\conf\\httpd.conf'
+[Fri Sep 02 06:24:12.787681 2016] [mpm_winnt:notice] [pid 6612:tid 508] AH00418: Parent: Created child process 5968
+[Fri Sep 02 06:24:13.398956 2016] [ssl:warn] [pid 5968:tid 488] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 02 06:24:13.585112 2016] [ssl:warn] [pid 5968:tid 488] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 02 06:24:13.599535 2016] [mpm_winnt:notice] [pid 5968:tid 488] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 02 06:24:35.847069 2016] [mpm_winnt:notice] [pid 6612:tid 508] AH00428: Parent: child process 5968 exited with status 3221226356 -- Restarting.
+[Fri Sep 02 06:24:36.194789 2016] [ssl:warn] [pid 6612:tid 508] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 02 06:24:36.207799 2016] [mpm_winnt:notice] [pid 6612:tid 508] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.10 configured -- resuming normal operations
+[Fri Sep 02 06:24:36.207799 2016] [mpm_winnt:notice] [pid 6612:tid 508] AH00456: Apache Lounge VC14 Server built: Jul  1 2016 11:09:37
+[Fri Sep 02 06:24:36.207799 2016] [core:notice] [pid 6612:tid 508] AH00094: Command line: 'C:\\WORDPR~1.6-1\\apache2\\bin\\httpd.exe -d C:/wordpress-4.6-1/apache2 -f C:\\WORDPR~1.6-1\\apache2\\conf\\httpd.conf'
+[Fri Sep 02 06:24:36.212802 2016] [mpm_winnt:notice] [pid 6612:tid 508] AH00418: Parent: Created child process 9652
+[Fri Sep 02 06:24:36.825525 2016] [ssl:warn] [pid 9652:tid 476] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 02 06:24:36.975595 2016] [ssl:warn] [pid 9652:tid 476] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Sep 02 06:24:36.990390 2016] [mpm_winnt:notice] [pid 9652:tid 476] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 02 06:37:32.690394 2016] [mpm_winnt:notice] [pid 6612:tid 508] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 02 06:37:34.690907 2016] [mpm_winnt:notice] [pid 9652:tid 476] AH00364: Child: All worker threads have exited.
+[Fri Sep 02 06:37:34.739004 2016] [mpm_winnt:notice] [pid 6612:tid 508] AH00430: Parent: Child process 9652 exited successfully.
